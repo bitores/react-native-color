@@ -1,0 +1,9 @@
+rootProject.name = 'ColorPicker'
+
+include ':app'
+
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(settingsDir, '../node_modules/react-native-linear-gradient/android')
+
+include ':react-native-sensor-manager'
+project(':react-native-sensor-manager').projectDir = new File(settingsDir, '../node_modules/react-native-sensor-manager/android')
